@@ -1,0 +1,76 @@
+* { 
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+
+.cobaeh{ 
+    width:1000px;
+    margin: 30px auto;
+    background: tan;
+}
+.cobaeh ul{
+    list-style: none; 
+}
+	
+.navegacion{ 
+    width:1000px;
+    margin: 30px auto;
+    background: aqua;
+}
+
+.navegacion ul{
+    list-style: none; 
+}
+
+
+
+.menu > li{ 
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li >a{ 
+    display: block;
+    padding: 15px 20px;
+    color: #353564;
+    text-decoration: none;   
+}
+
+.menu li a:hover{ 
+    color:#CE8B40;
+    transition: all 3s;
+}
+
+
+.submenu{
+    position: absolute;
+	padding:0;
+    background: #848484;
+    width: 120%;
+    visibility: hidden; 
+    opacity: 0;
+    transition: opacity 1.5s; 
+}
+
+.submenu li a{
+    display: block;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{ 
+    visibility: visible;
+    opacity: 1;
+}
+.Logo  {
+  height: 200px;
+  width: auto;
+  
+  }

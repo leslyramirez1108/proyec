@@ -1,0 +1,32 @@
+.social {
+	position: fixed; 
+	left: 0; 
+	top: 200px; 
+	z-index: 2000; 
+}
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 30px 25px;
+		text-decoration: none;
+		webkit-transition:all 500ms ease;
+		transition:all 500ms ease;
+		transition:all 500ms ease; 
+	}
+    .social ul li .icon-twitter{background: #00ABF0;}
+	.social ul li .icon-facebook {background:#3B5998;} 
+	.social ul li .icon-instagram {background: #F30A7E;}
+	.social ul li .icon-skype{background: #00ABF0;}
+    .social ul li .icon-pinterest {background: #D95232;}
+    .social ul li .icon-whatsapp{background: #5BF023;}
+	.social ul li .icon-linkedin{background: #3923B5;}
+ 
+	.social ul li a:hover {
+		background: #000; 
+		padding: 20px 30px; 
