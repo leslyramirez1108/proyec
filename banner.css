@@ -1,0 +1,35 @@
+.banner{
+  background:orange;
+  height:250px;
+  border:2px solid red;
+   width:400px;
+  margin:auto;
+  animation: banner 15s infinite;
+  animation-direction:order;
+  }
+@keyframes banner
+{
+ 5%,30%
+  {
+ background:url(Imagenes/Logo.jpg);
+ opacity:1;
+ background-size: 100% 100%;
+ }
+   31%,34%
+   {
+   opacity:0.1;
+   }
+  35%,65%{
+ background:url(Imagenes/Plantel.jpg);
+ opacity:1;
+ background-size: 100% 100%;
+ }
+   66%,69% 
+  {
+   opacity:0.1;
+   }
+   70%,100%{
+ background:url(Imagenes/Aula.jpg);
+ opacity:1;
+ background-size: 100% 100%;
+ } 

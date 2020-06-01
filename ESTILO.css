@@ -1,0 +1,122 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header,section,aside,article{
+    display: block;
+}
+
+
+body{
+    text-align: center;
+}
+
+.cuerpo{
+    margin:20px;
+    width: 50%;
+	height: 300px;
+    float: left;
+    
+}
+
+.cabecera{
+    background: aquamarine;
+    border: 1px solid #08342c;
+    padding: 15px;
+    text-align: left;
+}
+
+.fondo{
+    background: yellow;
+    width: 960px;
+    height: 700px;
+    border: 5px solid black;
+    margin: 15px auto;
+    }
+
+
+article{
+    background:burlywood;
+    padding: 20px;
+    margin-bottom: 15px;
+    height: 450px;
+    border: 1px solid black;
+}
+
+
+
+.lateral{
+    margin:20px 0px;
+    width: 40%;
+    float: left;
+}
+
+.lateral blockquote{
+    border: 1px solid black;
+    padding: 10px;
+    background: greenyellow;
+    margin-bottom: 20px;
+}
+
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header,section,aside,article{
+    display: block;
+}
+
+
+body{
+    text-align: center;
+}
+
+.cuerpo1{
+    margin:20px;
+    width: 50%;
+    float: left;
+    
+}
+
+.cabecera1{
+    background:aquamarine ;
+    border: 1px solid #08342c;
+    padding: 15px;
+    text-align: left;
+}
+
+.fondo{
+    background: tan;
+    width: 960px;
+    height: 600px;
+    border: 5px solid black;
+    margin: 15px auto;
+    }
+
+
+article{
+    background:yellow;
+    padding: 20px;
+    margin-bottom: 15px;
+    height: 450px;
+    border: 1px solid black;
+}
+
+
+
+.lateral1{
+    margin:20px 0px;
+    width: 40%;
+    float: left;
+}
+
+.lateral1 blockquote{
+    border: 1px solid black;
+    padding: 10px;
+    background: greenyellow;
+    margin-bottom: 20px;
+}
